@@ -1,4 +1,6 @@
 <h2 align="center">
+    <hr/>
+    <br/>
     <a href="#"><img src="./logo.png" alt="NixOS" width="100" /></a>
     <br />
     <span>Pumita's NixOS Configuration</span>
@@ -32,7 +34,7 @@
 ```
 
 <h4>
-    <pre align="center"><a href="./#-Hosts">Hosts</a> • <a href="./#-Homes">Homes</a> • <a href="./#-Overlays">Overlays</a> • <a href="./#-Shells">Shells</a></pre>
+    <pre align="center"><a href="https://github.com/cosasdepuma/nixos#-Hosts">Hosts</a> • <a href="https://github.com/cosasdepuma/nixos#-Homes">Homes</a> • <a href="https://github.com/cosasdepuma/nixos#-Overlays">Overlays</a> • <a href="https://github.com/cosasdepuma/nixos#-Shells">Shells</a></pre>
 </h4>
 <hr/>
 <h2></h2>

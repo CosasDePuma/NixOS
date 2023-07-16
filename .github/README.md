@@ -1,5 +1,4 @@
 <h2 align="center">
-    <hr/>
     <br/>
     <a href="#"><img src="./logo.png" alt="NixOS" width="100" /></a>
     <br />
@@ -40,7 +39,15 @@
 <h2></h2>
 </div>
 
-lorem
+## 🏠 Homes
+
+**Home Manager** is a feature of [NixOS Community](https://github.com/nix-community/home-manager) that allows you to declaratively manage the configuration of your user environment. Instead of making specific configurations in each program or service separately, `home-manager` allows you to define and manage all your custom settings in one place.
+
+### Profiles
+
+#### Default
+
+
 
 lorem
 

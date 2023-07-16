@@ -32,7 +32,7 @@
 ```
 
 <h4>
-    <pre align="center"><a href="./#-Hosts">Hosts</a> • <a href="./#-Hosts">Hosts</a> • <a href="./#-Hosts">Hosts</a></pre>
+    <pre align="center"><a href="./#-Hosts">Hosts</a> • <a href="./#-Homes">Homes</a> • <a href="./#-Shells">Shells</a></pre>
 </h4>
 <hr/>
 <h2></h2>

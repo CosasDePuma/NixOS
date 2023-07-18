@@ -40,6 +40,7 @@
   # System packages
   environment.systemPackages = with pkgs; [
     cherrytree                                                            # Notes
+    eww                                                                   # Bar & Widgets
     feh                                                                   # Wallpaper
     firefox                                                               # Browser
     flameshot                                                             # Screenshot
@@ -49,6 +50,7 @@
     neofetch                                                              # System Info
     neovim                                                                # Text Editor
     picom-dccsillag                                                       # Compositor
+    rofi                                                                  # Launcher
     starship                                                              # Prompt
     tldr                                                                  # Man Pages
     xclip                                                                 # Clipboard

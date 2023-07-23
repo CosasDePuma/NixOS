@@ -248,9 +248,15 @@
  
   # Default installed packages
   environment.defaultPackages = with pkgs;[                               # default packages
+    btop                                                                  # Resource monitor
     curl                                                                  # HTTP client
     git                                                                   # version control
     rsync                                                                 # file transfer/synchronization
     wget                                                                  # HTTP client
   ];
+
+  # Aliases
+  environment.shellAliases."top"  = "${pkgs.btop} ";
+  environment.shellAliases."htop" = "${pkgs.btop} ";
+  environment.shellAliases."btop" = "${pkgs.btop} ";
 }

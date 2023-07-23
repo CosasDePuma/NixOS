@@ -44,7 +44,6 @@
     feh                                                                   # Wallpaper
     firefox                                                               # Browser
     flameshot                                                             # Screenshot
-    haskellPackages.xmobar                                                # Bar
     keepassxc                                                             # Password Manager
     kitty                                                                 # Terminal
     krabby                                                                # Pokemon Sprites

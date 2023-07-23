@@ -55,5 +55,6 @@
     tldr                                                                  # Man Pages
     xclip                                                                 # Clipboard
     xfce.thunar                                                           # File Manager
+    xmobar                                                                # Status Bar
   ];
 }

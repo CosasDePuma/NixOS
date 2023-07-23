@@ -4,11 +4,11 @@
     export NIXPKGS_ALLOW_UNFREE=1
     echo
     echo "==========================================="
-    echo "    Welcome to the 'System' nix shell!"
+    echo "    Welcome to the 'Rust' nix shell!"
     echo "==========================================="
     echo
   '';
 
   NIX_CONFIG = "experimental-features = nix-command flakes";
-  packages = with pkgs; [ nix home-manager git ];
+  packages = with pkgs; [ cargo rustc ];
 }

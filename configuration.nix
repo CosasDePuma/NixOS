@@ -217,9 +217,8 @@
   # window managers
   services.xserver.windowManager.xmonad.enableContribAndExtras = true;    # enable contrib and extras packages
   services.xserver.windowManager.xmonad.enableConfiguredRecompile = true; # enable recompilation of the configuration (nix is inmutable by default)
-  services.xserver.windowManager.xmonad.extraPackages = with pkgs; [      # extra packages
-    haskellPackages.xmobar
-  ];
+  services.xserver.windowManager.xmonad.extraPackages = with pkgs;        # extra packages
+    haskellPackages: [ haskellPackages.xmobar ];
 
   programs.dconf.enable = true;                                           # dconf (configuration system)
   programs.light.enable = true;                                           # light (backlight control)

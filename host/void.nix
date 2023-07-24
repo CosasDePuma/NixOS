@@ -54,6 +54,7 @@
     starship                                                              # Prompt
     tldr                                                                  # Man Pages
     xclip                                                                 # Clipboard
+    xdotool                                                               # Keyboard Automation
     xfce.thunar                                                           # File Manager
     xmobar                                                                # Status Bar
   ];

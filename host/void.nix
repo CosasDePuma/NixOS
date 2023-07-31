@@ -51,6 +51,7 @@
     neovim                                                                # Text Editor
     picom-dccsillag                                                       # Compositor
     rofi                                                                  # Launcher
+    rofi-emoji                                                            # Emoji Picker
     starship                                                              # Prompt
     tldr                                                                  # Man Pages
     xclip                                                                 # Clipboard

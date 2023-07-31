@@ -36,6 +36,7 @@
   environment.shellAliases."edit"  = "${pkgs.neovim}/bin/nvim ";          # `edit` repalced by the default editor
   environment.shellAliases."emacs" = "${pkgs.neovim}/bin/nvim ";          # `emacs` repalced by the default editor
   environment.shellAliases."nano"  = "${pkgs.neovim}/bin/nvim ";          # `nano` repalced by the default editor
+  environment.variables."TERMINAL" = "${pkgs.kitty}/bin/kitty ";          # `TERMINAL` variable
 
   # System packages
   environment.systemPackages = with pkgs; [

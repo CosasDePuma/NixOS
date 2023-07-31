@@ -50,8 +50,8 @@
     neofetch                                                              # System Info
     neovim                                                                # Text Editor
     picom-dccsillag                                                       # Compositor
-    rofi                                                                  # Launcher
-    rofi-emoji                                                            # Emoji Picker
+    (rofi.override                                                        # Launcher
+      { plugins = [ rofi-emoji ]; })                                      # Launcher plugins
     starship                                                              # Prompt
     tldr                                                                  # Man Pages
     xclip                                                                 # Clipboard

@@ -256,7 +256,7 @@
   ];
 
   # Aliases
-  environment.shellAliases."top"  = "${pkgs.btop} ";
-  environment.shellAliases."htop" = "${pkgs.btop} ";
-  environment.shellAliases."btop" = "${pkgs.btop} ";
+  environment.shellAliases."top"  = "${pkgs.btop}/bin/btop ";
+  environment.shellAliases."htop" = "${pkgs.btop}/bin/btop ";
+  environment.shellAliases."btop" = "${pkgs.btop}/bin/btop ";
 }

@@ -172,9 +172,9 @@
   #     Fonts
   # ------------------------------
 
-  fonts.enableDefaultFonts = true;                                        # enable default fonts
+  fonts.enableDefaultPackages = true;                                     # enable default fonts
   fonts.fontDir.enable = true;                                            # enable fonts in `/run/current-system/sw/share/X11/fonts`
-  fonts.fonts = with pkgs; [                                              # default fonts
+  fonts.packages = with pkgs; [                                           # default fonts
     font-awesome
     ubuntu_font_family
     (nerdfonts.override {                                                 # only specific nerd font families
